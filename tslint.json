@@ -1,7 +1,6 @@
 {
   "extends": ["tslint:recommended", "tslint-angular","./tslint.codelyzer.json", "./tslint.sonar.json"],
   "rules": {
-    "prettier": true,
     "binary-expression-operand-order": true,
     "curly": [true, "ignore-same-line"],
     "linebreak-style": true,
