@@ -1,0 +1,20 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "htmlWhitespaceSensitivity": "strict",
+  "arrowParens": "always",
+  "printWidth": 120,
+  "proseWrap": "always",
+  "jsxBracketSameLine": false,
+  "overrides": [
+    {
+      "files": "*.html",
+      "parser": "angular"
+    },
+    {
+      "files": "./src/app/**/*.ts",
+      "parser": "typescript",
+      "excludeFiles": ["main.ts"]
+    }
+  ]
+}
